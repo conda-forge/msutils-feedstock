@@ -1,6 +1,6 @@
 context:
   name: msutils
-  version: "0.1.0"
+  version: "0.1.2"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/DataAnalyticsEngineering/MSUtils/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 0A1D506640F0F1DE0479DEF75CFC83913F9218E922585BC8646F926257C666B3
+  sha256: dc5525acd3a6afc37d6712a8619a00d1845a3332e3d283f898ca8e105975528a
 
 build:
   noarch: python
